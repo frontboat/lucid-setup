@@ -9,7 +9,7 @@ GREEN='\033[32m'
 RED='\033[31m'
 RESET='\033[0m'
 
-APP_NAME="${1:-my-app}"
+APP_NAME="${1:-lucid-quickstart}"
 
 echo ""
 echo -e "${BOLD}${CYAN}  Lucid Agents${RESET}"
