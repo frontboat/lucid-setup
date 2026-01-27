@@ -16,16 +16,10 @@ Or with a custom project name:
 curl -fsSL https://raw.githubusercontent.com/frontboat/lucid-setup/main/install.sh | bash -s my-app
 ```
 
-### Windows (PowerShell)
+### Windows
 
-```powershell
-irm https://raw.githubusercontent.com/frontboat/lucid-setup/main/install.ps1 | iex
 ```
-
-Or with a custom project name:
-
-```powershell
-& ([scriptblock]::Create((irm https://raw.githubusercontent.com/frontboat/lucid-setup/main/install.ps1))) my-app
+powershell -c "irm https://raw.githubusercontent.com/frontboat/lucid-setup/main/install.ps1|iex"
 ```
 
 ## Requirements
