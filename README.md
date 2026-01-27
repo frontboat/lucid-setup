@@ -4,6 +4,8 @@ A quick-start installer for creating Bun + Hono projects with [Lucid Agents](htt
 
 ## Usage
 
+### macOS / Linux
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/frontboat/lucid-setup/main/install.sh | bash
 ```
@@ -12,6 +14,18 @@ Or with a custom project name:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/frontboat/lucid-setup/main/install.sh | bash -s my-app
+```
+
+### Windows (PowerShell)
+
+```powershell
+irm https://raw.githubusercontent.com/frontboat/lucid-setup/main/install.ps1 | iex
+```
+
+Or with a custom project name:
+
+```powershell
+& ([scriptblock]::Create((irm https://raw.githubusercontent.com/frontboat/lucid-setup/main/install.ps1))) my-app
 ```
 
 ## Requirements
